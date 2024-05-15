@@ -1,0 +1,23 @@
+.card {
+    border-radius: 6px;
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, .2);
+}
+
+.buttons {
+    display: flex;
+}
+
+.text {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    opacity: 0;
+    animation: opacity-anim 0.8s forwards;
+}
+
+@keyframes opacity-anim {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }

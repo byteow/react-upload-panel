@@ -1,0 +1,31 @@
+.button {
+    --bg-color: #42b983;
+
+    color: var(--bg-color);
+    position: relative;
+    border-radius: 99px;
+    border: 1px solid var(--bg-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    outline: none;
+    background: transparent;
+    transition: all 0.22s;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.primary {
+    background: var(--bg-color);
+    color: #fff;
+}
+
+.button:active {
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
